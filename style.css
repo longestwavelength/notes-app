@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@200;400&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: rgb(243, 243, 202);
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding-top: 3rem;
+}
+
+.dark {
+    background-color: #202124;
+    color: white;
+}
+
+.add {
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    background-color: rgb(230, 230, 59);
+    border: none;
+    border-radius: 3px;
+    padding: 0.5rem 1rem;
+    color: rgb(31, 30, 30);
+    cursor: pointer;
+}
+
+.add:active {
+    transform: scale(0.98);
+  }
+
+  
+#dark-mode {
+    position: fixed;
+    top: 1.5rem;
+    right: 10rem;
+    background-color: white;
+    color: rgb(46, 41, 41);
+    border: 0cap;
+    border-radius: 50%;
+    padding: 0.2rem;
+    margin: 0.1rem;
+    cursor: pointer;
+}
+
+
+.note {
+    background-color: white;
+    box-shadow: 0 0 10px 4px rgba(0, 0, 0, 0.1);
+    margin: 30px 30px;
+    height: 400px;
+    width: 350px;
+    overflow-y: scroll;
+}
+
+.dark-note {
+    background-color: rgb(31, 27, 27);
+    color: white;
+    box-shadow: 0 0 10px 4px rgba(255, 253, 253, 0.884);
+    margin: 30px 30px;
+    height: 400px;
+    width: 350px;
+}
+
+.note .tools {
+    background-color: #8dee4d;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0.5rem;
+}
+
+.note .tools button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-left: 0.5rem;
+}
+
+.note textarea {
+    outline: none;
+    font-family: inherit;
+    font-size: 1.2rem;
+    border: none;
+    height: 380px;
+    width: 100%;
+    padding: 20px;
+}
+
+.main {
+    padding: 20px;
+}
+
+.hidden {
+    display: none;
+}
